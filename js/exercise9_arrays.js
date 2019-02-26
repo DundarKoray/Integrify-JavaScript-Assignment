@@ -1,3 +1,5 @@
+//if you have a question or problem, put this color to the question #f30e5c
+
 /******************* 
   ARRAYS QUESTIONS
 */
@@ -24,7 +26,7 @@
 
 // Q11-) Change companies to uppercase and print them out
 
-// Q12-) Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+// Q12-) #f30e5c Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
 
 // Q13-) Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found.
 
@@ -131,10 +133,35 @@ let mixedDataTypes = ['lemon', true, 29, undefined, null, 'false'];
 let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
 
 // Q7-) Print the array using console.log()
-console.log(itCompanies);
+console.log(itCompanies) // ['Facebook', 'Google', 'Microsoft',....]
 
+// Q8-) Print the number of companies in the array
+console.log(itCompanies.length); // 7
 
+// Q9-) Print the first company, middle and last company
+console.log(itCompanies[0], itCompanies[Math.floor(itCompanies.length/2)], itCompanies[itCompanies.length-1]); // Facebook(first-item) Apple(middle-item) Amazon(last)
 
+// Q10-) Print out each company
 
+//method A
+console.log(itCompanies[0]); // Facebook
+console.log(itCompanies[1]); // Google
+console.log(itCompanies[2]); // Microsoft
+console.log(itCompanies[3]); // Apple
+console.log(itCompanies[4]); // IBM
+console.log(itCompanies[5]); // Oracle
+console.log(itCompanies[6]); // Amazon
 
+//method B
+for (i = 0; i < itCompanies.length; i++){
+  console.log(itCompanies[i])
+}
 
+// Q11-) Change companies to uppercase and print them out
+for (i = 0; i < itCompanies.length; i++) {
+  console.log(itCompanies[i].toUpperCase())
+}
+
+// Q12-) Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+
+console.log(`${itCompanies.slice(0,6)} and ${itCompanies.slice(-1)} are big IT companies`)
