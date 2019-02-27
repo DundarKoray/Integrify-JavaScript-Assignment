@@ -206,9 +206,37 @@ itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Ama
 console.log(itCompanies)
 
 let sliceOutCompaniesFirstThree = itCompanies.slice(0, 3)
-console.log(sliceOutCompaniesFirstThree)
+console.log(sliceOutCompaniesFirstThree) //Facebook Google Microsoft
 
 // Q19-) Slice out the last 3 companies from the array
 let sliceOutCompaniesLastThree = itCompanies.slice(itCompanies.length-3, itCompanies.length)
 console.log(sliceOutCompaniesLastThree)  // IBM Oracle Amazon
 
+// Q20-) Slice out the middle IT company or companies from the array
+let sliceOutCompaniesMiddle = itCompanies[Math.floor(itCompanies.length/2)];
+console.log(sliceOutCompaniesMiddle) //Apple
+
+// Q21-) Remove the first IT company from the array
+itCompanies.shift();
+console.log(itCompanies) // (6) ["Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+
+// Q22-) Remove the middle IT company or companies from the array
+
+//Now I have 6 items in array. There are 2 middles.
+itCompanies.splice(2, 2); //first num is "FROM WHERE" and the second is "HOW MANY"
+console.log(itCompanies) // (4) ["Google", "Microsoft", "Oracle", "Amazon"]
+
+// Q23-) Remove the last IT company from the array
+//method A
+itCompanies.pop();
+console.log(itCompanies) // (3) ["Google", "Microsoft", "Oracle"]
+
+//method B
+let NewItCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+console.log(NewItCompanies) // (7) ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+let deleteLastItem = NewItCompanies.splice(-1, 1);
+console.log(NewItCompanies) // (6) ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle"]
+
+// Q24-) Remove all IT companies
+itCompanies.splice(0, itCompanies.length);
+console.log(itCompanies) // []
