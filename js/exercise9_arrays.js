@@ -1,5 +1,5 @@
-//if there is a question you couldn't solve, add the color #f30e5c
-// #30e3ca #fffa67
+//you couldn't solve a question?... add the color #f30e5c
+//you have a question #fffa67
 
 /******************* 
   ARRAYS QUESTIONS
@@ -240,3 +240,9 @@ console.log(NewItCompanies) // (6) ["Facebook", "Google", "Microsoft", "Apple",
 // Q24-) Remove all IT companies
 itCompanies.splice(0, itCompanies.length);
 console.log(itCompanies) // []
+
+//  TEST FOR REMOVING AN ITEM FROM MIDDLE
+let veryVeryNewItCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon', 'DJI', 'OnePlus', 'Panasonic', 'Sony', 'LG', 'Logitech', 'Asus'];
+console.log(veryVeryNewItCompanies) // 14 items in the array, it has 2 middle items which are Amazon and DJI
+veryVeryNewItCompanies.splice(6, 2); // here is my logic if the total item number is even.  x= array.lenght / 2 - 1. enter the number x and 2.  splice(x, 2) 
+console.log(veryVeryNewItCompanies)
