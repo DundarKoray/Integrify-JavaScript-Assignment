@@ -15,13 +15,11 @@
 
 // Q5-) Use for loop to iterate from 0 to 100 and print only odd numbers
 
-// Q6-) Use for loop to iterate from 0 to 100 and print and print the sum of all numbers.
+// QEXTRA-) Use for loop to iterate from 0 to 100 and if else condition, even numbers says "I am even number" and odd says "I am odd number. sum even nums and sum odd nums
 
-// Q7-) The sum all numbers is 5050.
+// Q6-) Use for loop to iterate from 0 to 100 and print and print the sum of all numbers.  The sum all numbers is 5050.
 
-// Q8-) Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
-
-// Q9-) The sum of all evens is 2550. And the sum of all odds is 2500.
+// Q7-) Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds. The sum of all evens is 2550. And the sum of all odds is 2500. #f30e5c
 
 //----------------------------
 
@@ -100,24 +98,71 @@ for(let i = 0; i <= itCompanies.length; i++){
 
 //------------------------------------
 // Q4-) Use for loop to iterate from 0 to 100 and print only even numbers
-let evenNumbers = 0;
-let oddNumbers = 0;
 
-for(let i = 0; i <= 100; i++){
-    if(i % 2 === 0){
-        evenNumbers = evenNumbers + i;
-        //same as above... evenNumber += i;
-
-        console.log('I am even number')
-    }else{
-        oddNumbers = oddNumbers + i;
-        //same as above... oddNumber += i;
-
-        console.log('I am odd number')
-    }
+for(let i = 0; i <= 100; i=i + 2) {
+    console.log(i)
 }
 
 
+// Q5-) Use for loop to iterate from 0 to 100 and print only odd numbers
 
+for(let i =1; i<=100; i= i + 2){
+    console.log(i)
+}
 
+// QEXTRA-) Use for loop to iterate from 0 to 100 and if else condition, even numbers says "I am even number" and odd says "I am odd number"
+
+for(let i = 0; i<=50; i++){
+    if(i % 2 ===0){
+        console.log(`${i} I am even number`)
+    }else {
+        console.log(`${i} I am odd number`)
+    }
+}
+
+// QEXTRA-) Use for loop to iterate from 0 to 100 and if else condition, even numbers says "I am even number" and odd says "I am odd number. sum even nums and sum odd nums
+let oddNumbers = 0;
+let evenNumbers = 0;
+
+for (let i = 0; i <= 100; i = i + 1) {
+  if (i % 2 === 0) {
+    evenNumbers = evenNumbers + i; 
+    console.log ('I am proud even', i);
+  } else {
+    
+    oddNumbers = oddNumbers + i;
+    console.log ('I am proud odd', i);
+  }
+}
+console.log(oddNumbers)
+console.log(evenNumbers)
+console.log(evenNumbers + oddNumbers)
+
+// Q6-) Use for loop to iterate from 0 to 100 and print and print the sum of all numbers.  The sum all numbers is 5050.
+
+let sum = 0;
+for (let i = 0; i <=100; i++){
+    sum = sum + i;
+    console.log(i);
+}
+
+console.log(`The sum of all the number is ${sum}`);
+
+// Q7-) Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds. The sum of all evens is 2550. And the sum of all odds is 2500.
+
+let sumEvens = 0;
+let sumOdds = 0;
+
+for(let i = 0; i <= 100; i++){
+    if(i % 2 === 0){
+        sumEvens = sumEvens + i;
+
+    }
+    
+    else{
+        sumOdds = sumOdds + i;
+    }
+
+    console.log(`The sum of all evens is ${sumEvens}. The sum of all odds is ${sumOdds}`)
+}
 

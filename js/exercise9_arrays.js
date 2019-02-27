@@ -194,7 +194,7 @@ console.log(itCompanies.sort()) // it sorts alphabetical order
 
 // Q16-) Reverse the array without reverse method 
 
-for (i = itCompanies.length; i > 0; i--){
+for (i = itCompanies.length; i >= 0; i--){
   console.log(itCompanies[i])
 }
 
