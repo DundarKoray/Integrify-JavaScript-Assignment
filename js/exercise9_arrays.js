@@ -1,4 +1,5 @@
-//if you have a question or problem, put this color to the question #f30e5c
+//if there is a question you couldn't solve, add the color #f30e5c
+// #30e3ca #fffa67
 
 /******************* 
   ARRAYS QUESTIONS
@@ -28,13 +29,13 @@
 
 // Q12-) #f30e5c Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
 
-// Q13-) Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found.
+// Q13-) #fffa67 Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found.
 
-// Q14-) Filter out companies which have more than one 'o' without the filter method
+// Q14-) #f30e5c Filter out companies which have more than one 'o' without the filter method
 
 // Q15-) Sort the array using sort() method
 
-// Q16-) Reverse the array without reverse method
+// Q16-) Reverse the array without reverse method 
 
 // Q17-) Reverse the array using reverse() method
 
@@ -123,9 +124,10 @@ let lastCar = carBrands[carBrands.length-1];
 console.log(`${firstCar} ${middleCar} ${lastCar}`) // Mercedes Toyota Suzuki
 //---------------------------------------------------
 
-// Q5-) Declare an array called mixedDataTypes,put different data types and in your array and the array size should be greater than 5
+// Q5-)#fffa67 Declare an array called mixedDataTypes,put different data types and in your array and the array size should be greater than 5
 
 let mixedDataTypes = ['lemon', true, 29, undefined, null, 'false'];
+
 //-------------------------------------------------
 
 //Q6-) Declare an array variable name itCompanies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
@@ -152,7 +154,10 @@ console.log(itCompanies[4]); // IBM
 console.log(itCompanies[5]); // Oracle
 console.log(itCompanies[6]); // Amazon
 
-//method B
+//method B  WHY SPLIT METHOD IS NOT WORKING????
+
+
+//method C
 for (i = 0; i < itCompanies.length; i++){
   console.log(itCompanies[i])
 }
@@ -165,3 +170,45 @@ for (i = 0; i < itCompanies.length; i++) {
 // Q12-) Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
 
 console.log(`${itCompanies.slice(0,6)} and ${itCompanies.slice(-1)} are big IT companies`)
+
+// Q13-) Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found.
+//let itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+
+var company = ['One Plus', 'Google'];
+
+if(itCompanies.includes(company[1])){
+  console.log(`the company you have entered, exists in itCompanies array.`);
+}else {
+  console.log(`the company you have entered, does not exist in itCompanies array.`);
+}
+
+//!!! what happens if I wanna include the whole company.
+
+// Q14-) Filter out companies which have more than one 'o' without the filter method #f30e5c
+
+
+//------------------------
+
+// Q15-) Sort the array using sort() method
+console.log(itCompanies.sort()) // it sorts alphabetical order
+
+// Q16-) Reverse the array without reverse method 
+
+for (i = itCompanies.length; i > 0; i--){
+  console.log(itCompanies[i])
+}
+
+// Q17-) Reverse the array using reverse() method
+console.log(itCompanies.reverse())
+
+// Q18-) Slice out the first 3 companies from the array
+itCompanies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'];
+console.log(itCompanies)
+
+let sliceOutCompaniesFirstThree = itCompanies.slice(0, 3)
+console.log(sliceOutCompaniesFirstThree)
+
+// Q19-) Slice out the last 3 companies from the array
+let sliceOutCompaniesLastThree = itCompanies.slice(itCompanies.length-3, itCompanies.length)
+console.log(sliceOutCompaniesLastThree)  // IBM Oracle Amazon
+
