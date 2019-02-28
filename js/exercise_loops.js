@@ -9,6 +9,19 @@
 
 // Q2-) Iterate 10 to 0 using for loop, do the same using while and do while loop.
 
+// Q-) Write a loop that makes seven calls to console.log to output the following triangle:
+/*  
+    #
+    ##
+    ###
+    ####
+    #####
+    ######
+    #######
+*/
+
+// Q-) Iterate the array, ['HTML', 'CSS', 'JavaScript'] using a for loop and print out the items.
+
 // Q3-) Iterate the array from above question using a for loop and print out the items.
 
 // Q4-) Use for loop to iterate from 0 to 100 and print only even numbers

@@ -185,7 +185,23 @@ if(itCompanies.includes(company[1])){
 //!!! what happens if I wanna include the whole company.
 
 // Q14-) Filter out companies which have more than one 'o' without the filter method #f30e5c
+const companies = [
+  'Facebook',
+  'Google',
+  'Microsoft',
+  'Apple',
+  'IBM',
+  'Oracle',
+  'Amazon',
+];
 
+for (let i = 0; i < companies.length; i++) {
+  if (companies[i].indexOf('o') != companies[i].lastIndexOf('o')) {
+    console.log(companies[i]);
+  }
+  console.log('index of result', companies[i].indexOf('o'));
+  console.log('last index of result', companies[i].lastIndexOf('o'));
+}
 
 //------------------------
 

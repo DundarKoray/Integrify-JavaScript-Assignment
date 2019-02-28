@@ -262,21 +262,19 @@ function areaOfCircle(r){
 }
 
 console.log(areaOfCircle(10)) //314.15
-//-----------------------------------------
 
-/*
-Q8-) Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
-*/
+//-----------------------------------------
+//Q8-) Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
+
 
 function circumOfCircle(r){
 	return (Math.PI*r) * 2;
 }
 console.log(circumOfCircle(10)) // 62.83
-//-------------------------------------------
 
-/*
-Q9-) Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
-*/
+//-------------------------------------------
+//Q9-) Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
+
 
 function densityOfSubs(mass, volume){
 	return mass / volume;
@@ -291,7 +289,7 @@ Q10-) Speed is calculated by dividing the total distance covered by a moving obj
 
 function kmPerHour(distance, time){
 	var speed = distance / time;
-	return speed;
+	return (`The speed is ${speed}`);
 }
 
 console.log(kmPerHour(70, 2)) //35km speed per hour
@@ -304,7 +302,7 @@ Q11-) Weight of a substance is calculated as follows: weight = mass x gravity. W
 
 function weightOfSubst (mass){
 	let weight = mass * 3.52;
-	return weight;
+	return (`The weight is ${weight}.`);
 }
 
 console.log(weightOfSubst(5000)) //17600
@@ -391,12 +389,11 @@ checkSeason('APril');
 Q15-) Linear equation is calculated as follows: ax + b = c. Write a function which calculates value of a linear equation, solveLinEquation.
 */
 
-function solveLinEquation(a, b){
-	let x = a + (6* b);
-	return x;
+function solveLinearEquation (a, b, c){
+	return ((b - c) / a);
 }
 
-console.log(solveLinEquation(7, 2))
+console.log(solveLinearEquation (1, 2, 3))
 	
 //------------------------------------
 
@@ -434,4 +431,116 @@ solveQuadEquation (3, 40, 5);
 Q17-) Declare a function name printArray. It takes array as a parameter and it prints out each value of thearray.
 */
 
+function solveQuadEquation (a, b, c){
+    // the quadratic equation can be solved by
+    // x = (-b +- sqrt(b**2 -4ac)/2a)
+    // let us consider the sqare root section to delta
+    // because they can have positive, negative and zero value
 
+    let delta = (b **2) - (4 * (a * c));
+
+    if(delta === 0) {
+        let result = -b / (2 * a);
+        return `the solution is ${result}`;
+
+    } else if (delta > 0) {
+        let result1 = (-b + Math.sqrt(delta)) / (2*a);
+        let result2 = (-b - Math.sqrt(delta)) / (2*a);
+        return `there are two solutions: ${result1} and ${result2}`;
+    
+    }else{
+        return `the solution does not exist`;
+    }
+
+}
+
+solveQuadEquation (3, 40, 5);
+
+//----------------------------------------
+//Q18-) Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (dont’ use method).
+
+const freshFruits = ['mango_1', 'pineapple_2', 'orange_3', 'apple_4'];
+console.log(freshFruits) // (4) ["mango_1", "pineapple_2", "orange_3", "apple_4"]
+
+//method A - for loop
+function reverseArrayWithForLoop (array) {
+	for (let i = array.length -1; i >= 0;  i--){
+		console.log('I am reversed with for loop', array[i])
+	}
+}
+
+reverseArrayWithForLoop(freshFruits);
+
+//method B - while loop
+function reverseArrayWithWhileLoop(array){
+	let i = array.length;
+	while(i > 0){
+		i--;		
+		console.log('I am reversed with while loop.', array[i])
+	}
+} 
+
+reverseArrayWithWhileLoop(freshFruits);
+
+//method C - do while loop
+function reverseArrayWithDoWhileLoop(array){
+	let i = array.length -1;
+	do{
+		console.log('I am reversed with do while loop.', array[i])
+		i--;
+	}while (i >= 0)
+}
+
+reverseArrayWithDoWhileLoop(freshFruits)
+
+//-----------------------------------
+//Q19-) Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
+
+const letters = ['a', 'b', 'c', 'd', 'e']
+
+function capitalizeArray(array){
+	for(let i = 0; i < array.length; i++){
+		console.log(array[i].toUpperCase());
+	}
+}
+capitalizeArray(letters)
+
+//--------------------------
+//Q20-) Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
+
+const vehicles = ['bus', 'boat', 'train', 'car']
+console.log(vehicles) // (4) ["bus", "boat", "train", "car"]
+function addItem (array, item){
+	array.push(item);
+	console.log(array)
+}
+
+addItem(vehicles, 'bike') // (5) ["bus", "boat", "train", "car", "bike"]
+
+//-----------------------------
+// Q21-) Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
+
+const shoppingBasket = ['egg', 'bread', 'butter', 'tomato', 'milk', 'ice-cream'];
+console.log(shoppingBasket) // (6) ["egg", "bread", "butter", "tomato", "milk", "ice-cream"]
+
+function removeItem (array, index){
+	array.splice(index, 1)
+	console.log(array)
+}
+
+//let's say we wanna remove tomato (3) from the array
+
+removeItem(shoppingBasket, 3) // (5) ["egg", "bread", "butter", "milk", "ice-cream"]
+
+//-------------------------------------
+//Q22-) Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
+
+function sumOfNumber(number){
+	let sum = 0;
+	for(let i = 0; i < number ; i++){
+		sum = sum + i;
+	}
+	return sum;
+}
+
+console.log(sumOfNumber(5)) // 10 (1+2+3+4)
