@@ -456,7 +456,7 @@ function solveQuadEquation (a, b, c){
 
 solveQuadEquation (3, 40, 5);
 
-//----------------------------------------
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
 //Q18-) Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (dont’ use method).
 
 const freshFruits = ['mango_1', 'pineapple_2', 'orange_3', 'apple_4'];
@@ -493,7 +493,7 @@ function reverseArrayWithDoWhileLoop(array){
 
 reverseArrayWithDoWhileLoop(freshFruits)
 
-//-----------------------------------
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
 //Q19-) Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
 
 const letters = ['a', 'b', 'c', 'd', 'e']
@@ -505,7 +505,7 @@ function capitalizeArray(array){
 }
 capitalizeArray(letters)
 
-//--------------------------
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
 //Q20-) Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
 
 const vehicles = ['bus', 'boat', 'train', 'car']
@@ -517,7 +517,7 @@ function addItem (array, item){
 
 addItem(vehicles, 'bike') // (5) ["bus", "boat", "train", "car", "bike"]
 
-//-----------------------------
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
 // Q21-) Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
 
 const shoppingBasket = ['egg', 'bread', 'butter', 'tomato', 'milk', 'ice-cream'];
@@ -532,9 +532,10 @@ function removeItem (array, index){
 
 removeItem(shoppingBasket, 3) // (5) ["egg", "bread", "butter", "milk", "ice-cream"]
 
-//-------------------------------------
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
 //Q22-) Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
 
+//method a
 function sumOfNumber(number){
 	let sum = 0;
 	for(let i = 0; i < number ; i++){
@@ -544,3 +545,28 @@ function sumOfNumber(number){
 }
 
 console.log(sumOfNumber(5)) // 10 (1+2+3+4)
+
+//method b
+function sumsumofNumber(numberOne, numberTwo){
+	let sum = 0
+	for(let i = numberOne; i<numberTwo; i++){
+		sum = sum + i;
+	}
+
+	return sum;
+}
+
+console.log(sumsumofNumber(4, 8)) // 22 (4+5+6+7)
+
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
+//Q23-) Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
+
+function sumOfOdds(numberOne){
+	let sum = 0;
+	for(let i = 1; i<numberOne; i= i +2){
+		sum = sum + i;
+	}
+	return sum;
+}
+
+console.log(sumOfOdds(7)) // 9 (1+3+5)
