@@ -1,5 +1,6 @@
-//you couldn't solve a question?... add the color #f30e5c
-//you have a question #fffa67
+//you couldn't solve a question: #f30e5c
+//you have a question: #fffa67
+//you have sold the question: #30e3ca
 
 /******************* 
   ARRAYS QUESTIONS
