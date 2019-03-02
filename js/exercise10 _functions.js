@@ -1,45 +1,55 @@
+//you couldn't solve a question: #f30e5c
+//you have a question: #fffa67
+//you have sold the question: #30e3ca
+
+
+/******************
+FUNCTION QUESTIONS
+*/
+
+
 /*
-Q1-) Declare a function fullName and it print out your full name.
+#30e3ca Q1-) Declare a function fullName and it print out your full name. 
 
 ------------------------------
-Q2-) Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name.
+#30e3ca Q2-) Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name. 
 
 ---------------------------------
-Q3-) Declare a function addNumbers and it takes two two parameters and it returns sum.
+#30e3ca Q3-) Declare a function addNumbers and it takes two two parameters and it returns sum. 
 
 -------------------------------
-Q4-) An area of a rectangle is calculated as follows: area = lenght x width. Write a function which calculates areaOfRectangle.
+#30e3ca Q4-) An area of a rectangle is calculated as follows: area = lenght x width. Write a function which calculates areaOfRectangle.
 
 ------------------------------------
-Q5-) A perimeter of a rectangle is calculated as follows: perimeter= 2x(lenght + width). Write a function which calculates perimeterOfRectangle.
+#30e3ca Q5-) A perimeter of a rectangle is calculated as follows: perimeter= 2x(lenght + width). Write a function which calculates perimeterOfRectangle.
 
 ---------------------------------
-Q6-) A volume of a rectangular prism is calculated as follows: volume = lenght x width x height. Write a function which calculates volumeOfRectPrism.
+#30e3ca Q6-) A volume of a rectangular prism is calculated as follows: volume = lenght x width x height. Write a function which calculates volumeOfRectPrism.
 
 ----------------------------------------------
-Q7-) Area of a circle is calculated as follows: 
+#30e3ca Q7-) Area of a circle is calculated as follows: 
 	 area = π x r x r. 
 Write a function which calculates areaOfCircle
 
 -------------------------------------
-Q8-) Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
+#30e3ca Q8-) Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
 
 -------------------------------------
-Q9-) Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
+#30e3ca Q9-) Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
 
 --------------------------------------------
-Q10-) Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. 
+#30e3ca Q10-) Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. 
 
 Write a fucntion which calculates a speed of a moving object, speed.
 
 ------------------------------------------------------
-Q11-) Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
+#30e3ca Q11-) Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
 
 --------------------------------------------------------------
-Q12-) Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which converst oC to oF convertCelciusToFahrenheit.
+#30e3ca Q12-) Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which converst oC to oF convertCelciusToFahrenheit.
 
 -------------------------------------------------------------
-Q13-) Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obsese based the information given below.
+#30e3ca Q13-) Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obsese based the information given below.
 
 	-The same groups apply to both men and women.
 	-Underweight: BMI is less than 18.5
@@ -48,46 +58,46 @@ Q13-) Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (heigh
 	-Obese: BMI is 30 or more
 
 --------------------------------------------------------
-Q14-) Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
+#30e3ca Q14-) Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
 
 ---------------
-Q15-) Linear equation is calculated as follows: ax + b = c. Write a function which calculates value of a linear equation, solveLinEquation.
+#30e3ca Q15-) Linear equation is calculated as follows: ax + b = c. Write a function which calculates value of a linear equation, solveLinEquation.
 
 ------------------------------------
-Q16-) Quadratic equation is calculated as follows: ax2 + bx + c = 0. Write a function which calculates value or values of a quadratic equation, solveQuadEquation.
+#30e3ca Q16-) Quadratic equation is calculated as follows: ax2 + bx + c = 0. Write a function which calculates value or values of a quadratic equation, solveQuadEquation.
 
 ------------------------------------
-Q17-) Declare a function name printArray. It takes array as a parameter and it prints out each value of thearray.
+#30e3ca Q17-) Declare a function name printArray. It takes array as a parameter and it prints out each value of thearray.
 
 --------------------------------------
-Q18-) Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (dont’ use method).
+#30e3ca Q18-) Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (dont’ use method).
 
 -----------------------------------
-Q19-) Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
+#30e3ca Q19-) Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
 
 -----------------------------------
-Q20-) Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
+#30e3ca Q20-) Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
 
 --------------------------------------
-Q21-) Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
+#30e3ca Q21-) Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
 
 ---------------------------
-Q22-) Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
+#30e3ca Q22-) Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
 
 --------------------------------
-Q23-) Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
+#30e3ca Q23-) Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
 
 ---------------------------
-Q24-) Declare a function name sumOfEven. It takes a number parameter and it adds all the even numbers in that - range.
+#30e3ca Q24-) Declare a function name sumOfEven. It takes a number parameter and it adds all the even numbers in that - range.
 
 ---------------------------------
-Q25-) Declare a function name evensAndOdds	. It takes a positive integer as parameter and it counts number of evens and odds in the number.
+#f30e5c Q25-) Declare a function name evensAndOdds	. It takes a positive integer as parameter and it counts number of evens and odds in the number. 
 	
 	evensAndOdds(100);
 	The number of odds are 50.
 	The number of evens are 51.
 ------------------------------------
-Q26-) Write a funcition which takes any number of arguments and return the sum of the arguments
+#f30e5c Q26-) Write a funcition which takes any number of arguments and return the sum of the arguments
 	
 	sum(1,2,3) // -> 6
 	sum(1,2,3,4) // -> 10
@@ -95,7 +105,7 @@ Q26-) Write a funcition which takes any number of arguments and return the sum o
 Q27-) Declare a function name randomHexaNumberGenerator. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number.
 	
 	console.log(randomHexaNumberGenerator());
-	'#ee33df'
+	'# ee33df'
 
 Q28-) Declare a function name userIdGenerator. When this function is called it generates seven character id. The function return the id.
 	
@@ -119,10 +129,10 @@ Q29-) Modify question number n . Declare a function name userIdGeneratedByUser. 
 	dIV0SSUTgAdKwStr
 	"
 
-Q30-) Write a function name rgbColorGenerator and it generates rgb colors.
+#30e3ca Q30-) Write a function name rgbColorGenerator and it generates rgb colors.
 	
 	rgbColorGenerator()
-	rgb(125,244,255)
+	rgb(1 25,244,255)
 
 Q31-) Use the new Date() object to get month, date, year, hour and minute.
 
@@ -183,7 +193,7 @@ ANSWERS
 */
 
 /*
-Q1-) Declare a function fullName and it print out your full name. 
+Q1-) Declare a function fullName and it print out your full name. #30e3ca
 */
 
 function fullName(){
@@ -197,7 +207,7 @@ console.log(fullName());
 //--------------------------------
 
 /*
-Q2-) Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name.
+Q2-) Declare a function fullName and now it takes firstName, lastName as a parameter and it returns your full - name. #30e3ca
 */
 
 function fullNameOne(firstNameOne, lastNameOne){
@@ -208,7 +218,7 @@ console.log(fullNameOne('Anna', 'Dündar')); // Anna Dündar
 //------------------------------------
 
 /*
-Q3-) Declare a function addNumbers and it takes two two parameters and it returns sum.
+Q3-) Declare a function addNumbers and it takes two two parameters and it returns sum. #30e3ca
 */
 
 function sumSomeNumbers(numOne, numTwo){
@@ -219,7 +229,7 @@ console.log(sumSomeNumbers(13, 7)); //20
 //--------------------------------------
 
 /*
-Q4-) An area of a rectangle is calculated as follows: area = lenght x width. Write a function which calculates areaOfRectangle.
+Q4-) An area of a rectangle is calculated as follows: area = lenght x width. Write a function which calculates areaOfRectangle. #30e3ca
 */
 
 function areaOfRectangle(lenght, width){
@@ -230,7 +240,7 @@ console.log(areaOfRectangle(12, 6)) //72
 //-------------------------------------
 
 /*
-Q5-) A perimeter of a rectangle is calculated as follows: perimeter= 2x(lenght + width). Write a function which calculates perimeterOfRectangle.
+Q5-) A perimeter of a rectangle is calculated as follows: perimeter= 2x(lenght + width). Write a function which calculates perimeterOfRectangle. #30e3ca
 */
 
 function perimeterOfRectangle(lenght, width){
@@ -241,7 +251,7 @@ console.log(perimeterOfRectangle(12, 6)) //36
 //----------------------------------------------
 
 /*
-Q6-) A volume of a rectangular prism is calculated as follows: volume = lenght x width x height. Write a function which calculates volumeOfRectPrism.
+Q6-) A volume of a rectangular prism is calculated as follows: volume = lenght x width x height. Write a function which calculates volumeOfRectPrism. #30e3ca
 */
 
 function volumeOfRectPrism(lenght, width, height){
@@ -253,7 +263,7 @@ console.log(volumeOfRectPrism(12, 6, 3)) //216
 
 /*
 Q7-) Area of a circle is calculated as follows: 
-area = π x r x r. Write a function which calculates areaOfCircle
+area = π x r x r. Write a function which calculates areaOfCircle. #30e3ca
 */
 
 function areaOfCircle(r){
@@ -264,7 +274,7 @@ function areaOfCircle(r){
 console.log(areaOfCircle(10)) //314.15
 
 //-----------------------------------------
-//Q8-) Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
+//Q8-) Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle #30e3ca
 
 
 function circumOfCircle(r){
@@ -273,7 +283,7 @@ function circumOfCircle(r){
 console.log(circumOfCircle(10)) // 62.83
 
 //-------------------------------------------
-//Q9-) Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density.
+//Q9-) Density of a substance is calculated as follows:density= mass/volume. Write a function which calculates density. #30e3ca
 
 
 function densityOfSubs(mass, volume){
@@ -284,7 +294,7 @@ console.log(densityOfSubs(50, 10)) // 5
 //-----------------------------------------
 
 /*
-Q10-) Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. 
+Q10-) Speed is calculated by dividing the total distance covered by a moving object divided by the total amount of time taken. #30e3ca
 */
 
 function kmPerHour(distance, time){
@@ -297,7 +307,7 @@ console.log(kmPerHour(100,5)) //20km speed per hour
 //--------------------------------------------
 
 /*
-Q11-) Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight.
+Q11-) Weight of a substance is calculated as follows: weight = mass x gravity. Write a function which calculates weight. #30e3ca
 */
 
 function weightOfSubst (mass){
@@ -309,7 +319,7 @@ console.log(weightOfSubst(5000)) //17600
 //-----------------------------------
 
 /*
-Q12-) Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which converst oC to oF convertCelciusToFahrenheit.
+Q12-) Temperature in oC can be converted to oF using this formula: oF = (oC x 9/5) + 32. Write a function which converst oC to oF convertCelciusToFahrenheit. #30e3ca
 */
 
 function convertCelciusToFahrenheit(celcius){
@@ -321,7 +331,7 @@ console.log(convertCelciusToFahrenheit(25)); //77°F
 //---------------------------------------------------
 
 /*
-Q13-) Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obsese based the information given below.
+Q13-) Body mass index(BMI) is calculated as follows: bmi = weight in Kg / (height x height) in m2. Write a function which calculates bmi. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is underweight, normal, overweight or obsese based the information given below. #30e3ca
 
 	-The same groups apply to both men and women.
 	-Underweight: BMI is less than 18.5
@@ -348,11 +358,9 @@ function calculateBMI (weight, height) {
 }
 
 calculateBMI(83, 1.83) 
-//-------------------------
 
-/*
-Q14-) Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
-*/
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
+//Q14-) Write a function called checkSeason, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
 
 function checkSeason(month){
 
@@ -383,11 +391,9 @@ function checkSeason(month){
 }
 
 checkSeason('APril');
-//---------------------------------------------
 
-/*
-Q15-) Linear equation is calculated as follows: ax + b = c. Write a function which calculates value of a linear equation, solveLinEquation.
-*/
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
+// Q15-) Linear equation is calculated as follows: ax + b = c. Write a function which calculates value of a linear equation, solveLinEquation.
 
 function solveLinearEquation (a, b, c){
 	return ((b - c) / a);
@@ -395,11 +401,8 @@ function solveLinearEquation (a, b, c){
 
 console.log(solveLinearEquation (1, 2, 3))
 	
-//------------------------------------
-
-/*
-Q16-) Quadratic equation is calculated as follows: ax2 + bx + c = 0. Write a function which calculates value or values of a quadratic equation, solveQuadEquation.
-*/
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
+// Q16-) Quadratic equation is calculated as follows: ax2 + bx + c = 0. Write a function which calculates value or values of a quadratic equation, solveQuadEquation.
 
 function solveQuadEquation (a, b, c){
 	// the quadratic equation can be solved by 
@@ -425,11 +428,10 @@ function solveQuadEquation (a, b, c){
 }
 
 solveQuadEquation (3, 40, 5);
-//---------------------------------
 
-/*
-Q17-) Declare a function name printArray. It takes array as a parameter and it prints out each value of thearray.
-*/
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
+// Q17-) Declare a function name printArray. It takes array as a parameter and it prints out each value of thearray. 
+
 
 function solveQuadEquation (a, b, c){
     // the quadratic equation can be solved by
@@ -456,8 +458,8 @@ function solveQuadEquation (a, b, c){
 
 solveQuadEquation (3, 40, 5);
 
-//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
-//Q18-) Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (dont’ use method).
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
+//Q18-) Declare a function name reverseArray. It takes array as a parameter and it returns the reverse of the array (dont’ use method). 
 
 const freshFruits = ['mango_1', 'pineapple_2', 'orange_3', 'apple_4'];
 console.log(freshFruits) // (4) ["mango_1", "pineapple_2", "orange_3", "apple_4"]
@@ -493,8 +495,8 @@ function reverseArrayWithDoWhileLoop(array){
 
 reverseArrayWithDoWhileLoop(freshFruits)
 
-//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
-//Q19-) Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
+//Q19-) Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray. 
 
 const letters = ['a', 'b', 'c', 'd', 'e']
 
@@ -505,7 +507,7 @@ function capitalizeArray(array){
 }
 capitalizeArray(letters)
 
-//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
 //Q20-) Declare a function name addItem. It takes an item parameter and it returns an array after adding the item
 
 const vehicles = ['bus', 'boat', 'train', 'car']
@@ -517,7 +519,7 @@ function addItem (array, item){
 
 addItem(vehicles, 'bike') // (5) ["bus", "boat", "train", "car", "bike"]
 
-//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
 // Q21-) Declare a function name removeItem. It takes an index parameter and it returns an array after removing an item
 
 const shoppingBasket = ['egg', 'bread', 'butter', 'tomato', 'milk', 'ice-cream'];
@@ -532,7 +534,7 @@ function removeItem (array, index){
 
 removeItem(shoppingBasket, 3) // (5) ["egg", "bread", "butter", "milk", "ice-cream"]
 
-//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
 //Q22-) Declare a function name sumOfNumbers. It takes a number parameter and it adds all the numbers in that range.
 
 //method a
@@ -558,7 +560,7 @@ function sumsumofNumber(numberOne, numberTwo){
 
 console.log(sumsumofNumber(4, 8)) // 22 (4+5+6+7)
 
-//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
 //Q23-) Declare a function name sumOfOdds. It takes a number parameter and it adds all the odd numbers in that - range.
 
 function sumOfOdds(numberOne){
@@ -570,3 +572,98 @@ function sumOfOdds(numberOne){
 }
 
 console.log(sumOfOdds(7)) // 9 (1+3+5)
+
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
+//Q24-) Declare a function name sumOfEven. It takes a number parameter and it adds all the even numbers in that - range.
+
+//method A
+function sumOfEvenMethodA (number){
+	let sum = 0;
+	for(let i = 0; i < number; i= i + 2){
+		sum = sum + i;
+		console.log(sum)
+	}
+}
+
+sumOfEvenMethodA(8); // 12 (0+2+4+6)
+
+//method B
+var sumEvenNumsB = 0;
+function sumOfEvenMethodB(numOneB, numTwoB) {
+	
+	if (numOneB % 2 === 0){
+		for(let i = numOneB; i <=numTwoB; i = i + 2){
+			sumEvenNumsB = sumEvenNumsB + i;
+		}
+	}
+	
+	else { 
+		for (let i = numOneB + 1; i <=numTwoB; i = i + 2){
+			sumEvenNumsB = sumEvenNumsB + i;
+		}
+	}
+	
+	console.log(sumEvenNumsB)
+}
+
+sumOfEvenMethodB(7, 15); //44 (8+10+12+14)
+
+
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #f30e5c
+//Q25-) Declare a function name evensAndOdds	. It takes a positive integer as parameter and it counts number of evens and odds in the number.
+	/*
+	evensAndOdds(100);
+	The number of odds are 50.
+	The number of evens are 51.
+	*/
+
+
+
+	
+
+
+
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #f30e5c
+//Q26-) Write a funcition which takes any number of arguments and return the sum of the arguments
+	/*
+	sum(1,2,3) // -> 6
+	sum(1,2,3,4) // -> 10
+	*/
+
+
+
+
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #f30e5c
+//Q27-) Declare a function name randomHexaNumberGenerator. When this function is called it generates a random hexadecimal number. The function return the hexadecimal number. NOTE! Hexadecimal takes letters from A to F 
+	/*	
+	console.log(randomHexaNumberGenerator());
+	'# ee33df'
+	*/
+
+
+
+
+
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff
+//Q28-) Declare a function name userIdGenerator. When this function is called it generates seven character id. The function return the id.
+	/*
+	console.log(userIdGenerator());
+	41XTDbE
+	*/
+	
+
+
+//#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff#fff #30e3ca
+//Q30-) Write a function name rgbColorGenerator and it generates rgb colors.
+	/* rgbColorGenerator() rgb( 125,244,255) */
+
+	function rgbColorGenerator(){
+		let r = Math.floor(Math.random() * 256);
+		let g = Math.floor(Math.random() * 256);
+		let b = Math.floor(Math.random() * 256);
+		return `rgba(${r}, ${g}, ${b})`;
+	}
+
+	console.log(rgbColorGenerator())
+
+	//IMPORTANT: Because Math.random() generates numbers between 0 to 0.9, meaning we never reach number 1, we always have to put one extra number, thats why we wrote 256 up there instead of 255. if we wrote 255, biggest generated number would be 244.9 and if we floor it, it would go down to 244.

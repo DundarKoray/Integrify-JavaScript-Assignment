@@ -162,3 +162,4 @@ console.log(companyOne.concat(" ", companyTwo));
 //3t Use repeat() method to print Integrify Academy 5 times
 console.log(company.repeat(5).split(","));
 /*ASK QUESTION ABOUT SPACING*/
+
